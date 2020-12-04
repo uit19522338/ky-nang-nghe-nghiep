@@ -241,11 +241,11 @@ bool check_cham_tuong(int x, int y)
 	{
 		return true;
 	}
-	else if (x == 100 && (y >= 5 && y <= 30)) // cham vao tuong phai
+	else if (x == 100 && (y >= 3 && y <= 30)) // cham vao tuong phai
 	{
 		return true;
 	}
-	else if (x == 10 && (y >= 5 && y <= 30)) // cham vao tuong trai
+	else if (x == 10 && (y >= 3 && y <= 30)) // cham vao tuong trai
 	{
 		return true;
 	}
@@ -277,7 +277,7 @@ void draw_food(int &xfood, int &yfood, int toadox[], int toadoy[])
 	do
 	{
 		xfood = rand() % (99 - 11 + 1) + 11;
-		yfood = rand() % (30 - 3 + 1) + 3;
+		yfood = rand() % (29 - 4 + 1) + 4;
 	} while (check_ran_de_qua(xfood, yfood, toadox, toadoy) == true);
 	int i = rand() % 15 + 1;
 	SetColor(i);
