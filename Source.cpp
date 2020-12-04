@@ -277,7 +277,7 @@ void draw_food(int &xfood, int &yfood, int toadox[], int toadoy[])
 	do
 	{
 		xfood = rand() % (99 - 11 + 1) + 11;
-		yfood = rand() % (25 - 2 + 1) + 2;
+		yfood = rand() % (30 - 3 + 1) + 3;
 	} while (check_ran_de_qua(xfood, yfood, toadox, toadoy) == true);
 	int i = rand() % 15 + 1;
 	SetColor(i);
