@@ -1,3 +1,10 @@
+# Update thứ 4, ngày 09/12/2020
+
+1. Mình đã update lại phần source code sau khi nhận được phản hồi về lỗi từ phía các bạn.
+2. Các bạn cố gắng hoàn thiện phần báo cáo đồ án cuối kì bằng Latex trước thứ 6 ngày 11/12/2020 để cả nhóm trao đổi và đưa ra nhận xét.
+Cảm ơn các bạn
+
+
 # Update thứ 5, ngày 03/12/2020
 
 1. Bạn Nguyên Tín đã update lại hợp đồng nhóm:
